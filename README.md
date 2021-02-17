@@ -1,7 +1,7 @@
 We used multivariate Poisson or negative binomial regression models when more accurate, as in Bedubourg and Le Strat [1] , Barboza et al [2] and Buckeridge et al [3], to identify which temporal segmentation and detection algorithm association has the best performances. These regression models allowed us to estimate performance ratios. Sensitivity, specificity, PPV, F1-measure, FPR, timeliness and POD ratios were estimated with the gross daily counts and Farrington flexible algorithm as references. 95% confidence intervals were calculated with robust estimation of standard errors. We took into account the following covariables: outbreak detection algorithms, temporal segmentation method, outbreak size and the characteristics of the time series. We added an interaction between the temporal segmentation and the detection algorithm. The regression analysis has been performed by Stata 14.2.
 
 
-The .xlsx file in this repository contains predictions for all the performance indicators. This files allows a quick research of the best performances according to the time series caracteristics, or time segmentation type, or detection algorithm.
+The .xlsx file (also available in .csv) in this repository contains predictions for all the performance indicators. This files allows a quick research of the best performances according to the time series caracteristics, or time segmentation type, or detection algorithm.
 
 
 
